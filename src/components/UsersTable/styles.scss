@@ -1,0 +1,17 @@
+
+.hover-effect {
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 14px;
+    transition: all 0.2s ease-in-out;
+    svg {
+        transition: fill 0.2s ease-in-out;
+    }
+    &:hover {
+        background-color: rgba(#333333, 0.7);
+        svg {
+            fill: #FFFFFF;
+        }
+    }
+}
